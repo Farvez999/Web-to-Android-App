@@ -25,7 +25,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    String webAddress = "https://atifsoftwares.blogspot.com/";
+    String webAddress = "https://gamersnab.com/";
     WebView webView;
     FrameLayout frameLayout;
     ProgressBar progressBar;
