@@ -1,4 +1,4 @@
-package com.fusionworld.web_to_apponlinenews;
+package com.app.cadetmission;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fusionworld.web_to_apponlinenews">
+    package="com.app.cadetmission">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -12,8 +12,10 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SplashActivity"
+        <activity android:name="com.app.cadetmission.MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            ></activity>
+        <activity android:name="com.app.cadetmission.SplashActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.fusionworld.web_to_apponlinenews;
+package com.app.cadetmission;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,18 +14,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.webkit.URLUtil;
 import android.webkit.WebChromeClient;
-import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
 
-    String webAddress = "https://gamersnab.com/";
+    String webAddress = "https://cadetmission.com/";
     WebView webView;
     FrameLayout frameLayout;
     ProgressBar progressBar;
